@@ -216,37 +216,68 @@ footer p a {
     clear: both;
 }
 
-.hero__work {
-    height: 500px;
+.work__work h3 {
+    color: black; 
+    padding-left: 200px;
+    width: 700px;
 }
 
-.section-one__work .section-two__work .section-three__work {
-    height: 700px; 
+.work__work p {
+    color: darkslategray; 
+    font-size: 18px; 
+    padding-left: 200px;
+    width: 700px;
+}
+
+.hero__work {
+    height: 400px;
 }
 
 .intro__work, .aboutme__work, .experience__work {
-    padding: 307px 0; 
-    width: 600px; 
+    padding: 200px 0; 
+    width: 1200px; 
 }
-.intro__work h2 {
-    color: white; 
-    font-size: 55px; 
-    margin: 0 auto;
-}
-
-.section-one__work {
+.intro__work {
     background-image: url("../img/work-image.png");
     background-repeat: no-repeat;
     height: auto;
     float: left;
     width: 1200px; 
 }
-
-.aboutme__work h3 {
-    color: black; 
+.intro__work h2 {
+    color: white; 
+    font-size: 55px; 
+    text-shadow: 2px 2px 4px #2f4f4f;
+    width: 900px;
+}
+.aboutme__work {
+    height: auto;
+    float: left;
+}
+.experience__work {
+    height: auto;
+    float: left;
 }
 
-.aboutme__work p {
+/*** CONTACT ***/
+.contact__contact {
+    clear: both;
+    height: 500px; 
+}
+
+.contact__contact h3 {
+    color: black; 
+    padding-left: 200px;
+    width: 700px;
+}
+
+.contact__contact p {
     color: darkslategray; 
     font-size: 18px; 
+    padding-left: 200px;
+    width: 700px;
+}
+
+.hero__contact {
+    height: 300px;
 }
