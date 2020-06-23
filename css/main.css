@@ -38,6 +38,7 @@ h4 {
     color: whitesmoke;
     font-size: 44px; 
     font-weight: 700;
+    padding-top: 25px;
 }
 
 p {
@@ -113,6 +114,7 @@ header nav ul li a{
     width: 310px; 
     color: darkslategray; 
     padding-bottom: 50px; 
+    padding-left: 20px;
 }
 
 /*** WORK ***/
@@ -121,6 +123,7 @@ header nav ul li a{
 }
 .section-one, .section-two, .section-three {
     height: 900px; 
+    padding-left: 20px;
 }
 .project-one, .project-two, .project-three {
     padding: 307px 0; 
@@ -264,6 +267,18 @@ footer p a {
 .experience__work {
     height: auto;
     float: left;
+}
+
+.experience__work a {
+    text-transform: none;
+    color: darkslategray; 
+    font-size: 15px; 
+    padding-left: 200px;
+    width: 700px;
+}
+
+.experience__work a:hover {
+    color: lightsteelblue;
 }
 
 /*** CONTACT ***/
