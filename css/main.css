@@ -112,6 +112,7 @@ header nav ul li a{
 .main-title p {
     width: 310px; 
     color: darkslategray; 
+    padding-bottom: 50px; 
 }
 
 /*** WORK ***/
@@ -144,22 +145,27 @@ header nav ul li a{
     opacity: 1;
 }
 
+.work a {
+    text-decoration: none;
+    color: white; 
+}
+
 .section-one {
-    background-image: url("../img/section-one-background.png");
+    background-image: url("../img/vision-board-cover.png");
     background-repeat: no-repeat;
     height: auto;
     float: left;
     width: 1200px; 
 }
 .section-two {
-    background-image: url("../img/section-one-background.png");
+    background-image: url("../img/rogue-pickings-photo.png");
     background-repeat: no-repeat;
     height: auto;
     float: left;
     width: 1200px; 
 }
 .section-three {
-    background-image: url("../img/section-one-background.png");
+    background-image: url("../img/receipe-card-cover.png");
     background-repeat: no-repeat;
     height: auto;
     float: left;
@@ -247,8 +253,9 @@ footer p a {
 .intro__work h2 {
     color: white; 
     font-size: 55px; 
+    padding-left: 175px;
     text-shadow: 2px 2px 4px #2f4f4f;
-    width: 900px;
+    width: 600px;
 }
 .aboutme__work {
     height: auto;
