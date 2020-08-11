@@ -125,10 +125,17 @@ header nav ul li a{
     height: 900px; 
     padding-left: 20px;
 }
-.project-one, .project-two, .project-three {
+.project-one, .project-three {
     padding: 307px 0; 
     width: 600px; 
 }
+
+.project-two {
+    float: right;
+    padding: 307px 0; 
+    width: 600px; 
+}
+
 .work h3, .work h4 {
     margin: 0 auto; 
 }
@@ -152,7 +159,7 @@ header nav ul li a{
     width: 1200px; 
 }
 .section-two {
-    background-image: url("../img/rogue-pickings-photo.png");
+    background-image: url("../img/Asparagus-right.png");
     background-repeat: no-repeat;
     height: auto;
     float: left;
